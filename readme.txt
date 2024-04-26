@@ -1,1 +1,1 @@
-Scripts with exercises from the course Java Programming from Georgia Tech on Edx
+Assignments and Project from COMP 5421 at Concordia University and C++ Developer Course at Udemy
