@@ -8,8 +8,9 @@ int main() {
 	
 	//boolalpha manipulates boolean values to use words instead of numbers
 
-	cout << "Is it Sunny? " << boolalpha << isSunny << endl;
-	cout << "Is it Warm? " << boolalpha << isWarm << endl;
+	cout << boolalpha;
+	cout << "Is it Sunny? " << isSunny << endl;
+	cout << "Is it Warm? " << isWarm << endl;
 	
 	return 0;
 
