@@ -4,7 +4,7 @@ using namespace std;
 
 /*
 
-	Percentages Project
+	Input Output Project
 
 	-> Create a fullName string variable
 	-> Create a location string variable
