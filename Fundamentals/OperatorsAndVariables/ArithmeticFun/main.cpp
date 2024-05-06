@@ -40,5 +40,26 @@ int main() {
 	myInt--;	//--myInt;	myInt -= 1;		myInt = myInt - 1;
 	cout << "myInt = " << myInt << endl;
 
+	/*
+		Challenge
+
+		Declare a variable myNum, set it to 10.
+		Increase myNum by 5 using arithmetic operators.
+		Double myNum value three times on three different lines.
+		Print myNum's final.
+
+	*/
+
+	int myNum = 10;
+	cout << "myNum = " << myNum << endl;	
+	myNum += 5;
+	cout << "myNum = " << myNum << endl;
+	myNum *= 2;
+	cout << "myNum = " << myNum << endl;
+	myNum *= 2;
+	cout << "myNum = " << myNum << endl;
+	myNum *= 2;
+	cout << "myNum Final = " << myNum << endl;
+
 	return 0;
 }
