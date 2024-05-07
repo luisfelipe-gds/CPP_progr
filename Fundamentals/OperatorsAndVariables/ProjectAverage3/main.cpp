@@ -12,6 +12,7 @@ int main() {
   double num1;
   double num2;
   double num3;
+  double average;
 
   cout << "Please enter a real number: " << endl;
   cin >> num1;
@@ -22,7 +23,7 @@ int main() {
   cout << "Please enter the last real number: " << endl;
   cin >> num3;
 
-  double average = (num1 + num2 + num3) / 3
+  average = (num1 + num2 + num3) / 3;
 
   cout << "The average is: " << average << endl;
   
