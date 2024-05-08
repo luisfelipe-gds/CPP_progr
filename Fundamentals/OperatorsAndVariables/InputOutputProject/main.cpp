@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-using namespace std;
+using namespace std; //resolution operator
 
 /*
 
@@ -26,7 +26,7 @@ int main() {
 	string location;
 	int initialScore;
 	
-	cout << "Please enter your project score (0-100): " << endl;
+	cout << "Please enter your project score (0-100): " << endl;  //insertion operator
 	cin >> initialScore;		//just get the input, not the entire line, since we're dealing with an integer
 	
 	cin.get();		//to make sure the program consumes the <">new line character>
