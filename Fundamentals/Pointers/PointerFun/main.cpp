@@ -14,6 +14,11 @@ int main()
 
 	cout << "myInt is now: " << myInt << endl;
 
-	
+	double myDouble{ 3.14 };
+	double* dblPtr{ &myDouble };
+
+	cout << "myDouble is: " << myDouble << endl;
+	cout << "pointer holds value: " << dblPtr << endl;
+
 	return 0;
 }
