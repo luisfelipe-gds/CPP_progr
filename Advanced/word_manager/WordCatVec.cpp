@@ -1,8 +1,3 @@
-/* ***************************************************************************
- * COMP 5421 - Summer 2024 - Assignment 2 - Professor Sadegh Ghaderpanah
- * Student Name: Luis Felipe Garcia de Souza
- * Student ID: 40266040
- * Due Date: June 14th, 2024
  * ***************************************************************************
  *
  * Please check the ReadMe file for the detailed description of all classes
@@ -70,12 +65,12 @@ int WordCatVec::menu()
     while (cin.fail())      // validate the user's input
     {
         cin.clear();        // Clear the error state
-        cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); // Ignore the rest of the line
+        cin.ignore(1000, '\n'); // Ignore the rest of the line
 
         cout << "Invalid input. Please enter a number: ";
         cin >> choice; 	    // Read the user's choice again
     }
-    cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');  // Ignore the rest of the line
+    cin.ignore(1000, '\n');  // Ignore the rest of the line
 
     return choice;
 }
