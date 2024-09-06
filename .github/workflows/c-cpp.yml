@@ -1,0 +1,19 @@
+name: C++ Build and Test
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Install GCC
+        run: sudo apt-get install -y g++
+
+      - name: Build project
+        run: g++ -o cString_word_manager main.cpp Word.cpp WordList.cpp WordCat.cpp WordCatVec.cpp
+
+      - name: Run executable
+        run: ./cString_word_manager
