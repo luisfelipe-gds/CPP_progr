@@ -1,0 +1,24 @@
+
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build C++ with MSVC",
+            "type": "shell",
+            "command": "cl.exe",
+            "args": [
+                "/EHsc",
+                "main.cpp",
+                "functors.cpp",
+                "/Fe:",
+                "function_objects_lambdas.exe"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$msCompile"],
+            "detail": "Build task using Microsoft C++ Build Tools."
+        }
+    ]
+}
