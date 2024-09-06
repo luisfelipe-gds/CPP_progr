@@ -1,4 +1,4 @@
-* ***************************************************************************
+/* ***************************************************************************
  *
  * Please check the ReadMe file for the detailed description of all classes
  * and how they interact. 
@@ -16,6 +16,7 @@
 #define WORD_H_
 #include <iostream>
 #include <string>
+#include <algorithm>
 
 using std::string;
 using std::cout;
@@ -81,7 +82,7 @@ public:
 	 */
 	virtual ~Word();
 	
-	/*
+	/*<
 	 * length()
 	 * A method that returns the length of the word.
 	 * @return The length of the word
@@ -140,7 +141,7 @@ public:
 	 * @param rhs The right-hand side Word object to compare
 	 * @return A boolean value indicating if lhs.theWord is less than rhs.theWord
 	*/
-	bool operator<(const Word& rhs);
+	bool operator<(const Word& rhs) const;
 
 	/*
 	 * read(std::istream&)
@@ -190,15 +191,6 @@ std::istream& operator>>(std::istream& sin, Word& w);
 std::ostream& operator<<(std::ostream& sout, const Word& w);
 
 /*
- * Overloaded operator ==(const Word&, const Word&)
- * It compares theWord with rhs.theWord and returns a boolean value
- * @param lhs The left-hand side Word object to compare
- * @param rhs The right-hand side Word object to compare
- * @return A boolean value indicating if lhs.theWord is equal to rhs.theWord
- */
-bool operator==(const Word& lhs, const Word& rhs);
-
-/*
  * trim(const string&, const string&)
  * It removes the whitespaces from the beginning and end of the string
  * @param str The string to remove the whitespaces from
@@ -206,5 +198,14 @@ bool operator==(const Word& lhs, const Word& rhs);
  * @return The string without the whitespaces
  */
 string trim(const string& str, const string& whitespaces = " \t\n");
+
+	/*
+ 	* Overloaded operator ==(const Word&, const Word&)
+ 	* It compares theWord with rhs.theWord and returns a boolean value
+ 	* @param lhs The left-hand side Word object to compare
+ 	* @param rhs The right-hand side Word object to compare
+ 	* @return A boolean value indicating if lhs.theWord is equal to rhs.theWord
+ 	*/
+ 	bool operator==(const Word& lhs, const Word& rhs);
 
 #endif // !WORD_H_	

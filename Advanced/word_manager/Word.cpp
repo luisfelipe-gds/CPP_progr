@@ -1,4 +1,4 @@
- * ***************************************************************************
+ /* ***************************************************************************
  *
  * Please check the ReadMe file for the detailed description of all classes
  * and how they interact. 
@@ -96,7 +96,7 @@ void Word::write(const std::ostream& sout) const
 }
 
 // Overloaded operator<(const Word&, const Word&)
-bool Word::operator<(const Word& rhs)
+bool Word::operator<(const Word& rhs) const
 {
 	return theWord.compare(rhs.theWord) < 0;  // calls the string compare method
 }

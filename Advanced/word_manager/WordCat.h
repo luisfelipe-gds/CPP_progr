@@ -1,4 +1,4 @@
- * ***************************************************************************
+ /* ***************************************************************************
  *
  * Please check the ReadMe file for the detailed description of all classes
  * and how they interact. Check WordCat.cpp for the implementation of the methods.
