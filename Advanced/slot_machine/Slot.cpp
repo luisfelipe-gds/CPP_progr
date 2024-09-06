@@ -210,6 +210,8 @@ int SlotMachine::getMaxHeight(const array<Canvas, 3>& can)
 			}
 		}
 	}
+
+	return can[0].getRows(); //standard return
 }
 
 // checkWin()

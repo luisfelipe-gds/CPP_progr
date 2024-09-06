@@ -109,9 +109,9 @@ int main()
 	cout << rt.draw().concat(at.draw());
 
 	cout << re.draw().concat(rh.draw());
-	*/
+	
 	/* test for slot machine */
-	/*
+	
 	SlotMachine sm{ 10 };
 
 	sm.run();

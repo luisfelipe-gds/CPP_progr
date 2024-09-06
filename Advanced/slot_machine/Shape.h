@@ -18,6 +18,7 @@
 #include <string>
 #include <sstream>
 #include <typeinfo>
+#include <cmath>
 #include "Canvas.h"
 using std::string;
 using std::cout;
