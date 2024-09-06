@@ -1,9 +1,4 @@
 /* ***************************************************************************
- * COMP 5421 - Summer 2024 - Assignment 4 - Professor Sadegh Ghaderpanah
- * Student Name: Luis Felipe Garcia de Souza
- * Student ID: 40266040
- * Due Date: July 27th, 2024
- * ***************************************************************************
  *
  * Please check the ReadMe file for the detailed description of all classes
  * and how they interact.
