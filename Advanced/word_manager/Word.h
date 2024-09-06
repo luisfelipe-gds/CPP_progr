@@ -1,3 +1,17 @@
+* ***************************************************************************
+ *
+ * Please check the ReadMe file for the detailed description of all classes
+ * and how they interact. 
+ *
+ * ***************************************************************************
+ * Class Description: Word class is a class that represents a word. It has
+ * a string instance variable that holds the word. It has methods to manipulate
+ * the word, such as concatenating, comparing, reading, writing, and setting.
+ * It also has overloaded operators to compare, read, and write the word.
+ *
+ * ***************************************************************************
+ */
+
 #ifndef WORD_H_
 #define WORD_H_
 #include <iostream>
