@@ -210,13 +210,13 @@ int WordCat::menu()
 	while (cin.fail())      // Validate the input     
     {	
         cin.clear();        // Clear the error state
-        cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); // Ignore the rest of the line
+        cin.ignore(1000, '\n'); // Ignore the rest of the line
         cout << "Invalid input. Please enter a number: ";
         
 		cin >> choice;      // Get the user's choice again
     }
     
-    cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); // Ignore the rest of the line
+    cin.ignore(1000, '\n'); // Ignore the rest of the line
 
     return choice;
 }
@@ -375,7 +375,7 @@ void WordCat::showWordsStartingWith()
     char initial;
     cin >> initial;
 
-    cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); // Ignore the rest of the line
+    cin.ignore(1000, '\n'); // Ignore the rest of the line
 
     WordList wordsStartingWithInitial = wordList.getWordsStartingWith(initial);
 
