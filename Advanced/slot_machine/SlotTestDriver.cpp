@@ -1,4 +1,3 @@
-/*
 #include "Canvas.h"
 #include "Shape.h"
 #include "Rectangle.h"
@@ -64,13 +63,13 @@ int main()
 	cout << "(H)\n" << can5 << "\n";
 
 	Canvas can6{ 3,8,'*'}; // notice that
-							// can6’s fill character is ’*’
+							// can6â€™s fill character is â€™*â€™
 	can6.write_horizontal(1, 2, "that's");
 	can6.write_horizontal(2, 2, "all");
 	can6.write_horizontal(3, 2, "folks!");
 	cout << "(k)\n" << can6 << "\n";
 
-	can5.clear(); // same as can5.fill(’ ’);
+	can5.clear(); // same as can5.fill(â€™ â€™);
 	can5.overlay(can6, 1, 1); // overlays can6 on can5
 	cout << "(l)\n" << can5 << "\n";
 	can5.overlay(can6, 2, 11); // overlays can6 on can5
@@ -119,4 +118,3 @@ int main()
 	
 	return 0;
 }
-*/
