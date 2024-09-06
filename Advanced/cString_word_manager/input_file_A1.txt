@@ -1,0 +1,27 @@
+#sport
+Hockey
+racing
+puck
+tennis
+ball
+tennis racket
+running shoes
+
+#Food and Drink
+Water
+hot-dog
+Apple juice
+cheese burger
+Pizza
+
+#fruits
+apple
+Pear
+Pileapple
+mango
+orange
+watermelon
+grapes
+plum
+cherry
+tangerine
