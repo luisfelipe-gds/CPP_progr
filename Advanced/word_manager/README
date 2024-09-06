@@ -1,0 +1,32 @@
+General description:
+	This solution is a console-based C++ application developed in Microsoft Visual Studio Community 2022 (64-bit)
+  Current Version 17.9.7. 
+
+  The application is designed to manage categories of words. 	Each category is represented  by a WordCat object, 
+  and all categories are stored in a WordCatVec object. WordCatVec class is a container class that holds a 
+  std::vector<WordCat> of WordCat objects.
+
+	Each WordCat object represents a category of words and includes methods for managing the words in the category. 
+  The words in a category are stored in a WordList object. 
+
+	The WordList class uses a std::list<word> to store Word objects. It includes methods for adding, removing, and 
+  searching for Word objects in the list.
+
+	The Word class represents a word, a std::<string> object, and includes methods for manipulating the word.
+	
+	The VocabDriver.cpp file includes test functions for the Word, WordList, WordCat, and WordCatVec classes. 
+
+	The solution is designed with a focus on object-oriented programming principles, including encapsulation, 
+  inheritance, and polymorphism. It demonstrates the use exception handling, file I/O, and operator overloading 
+  in C++.
+
+Instructions:
+	This program was developed using Microsoft Visual Studio Community 2022 (64-bit) - Current Version 17.9.7. 
+  There are no special instructions for running it. The program can be compiled and run in an C++ set up environment, 
+  as well as in any IDE.
+
+Extra features:
+	I implemented a method that dinamically sets the width of the column equal to the width of the largest word 
+  in the category or vector. it is WordList::setMaxLength().
+
+There are no known bugs in the program.
