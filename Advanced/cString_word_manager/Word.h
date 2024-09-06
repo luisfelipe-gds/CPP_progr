@@ -18,6 +18,7 @@
 #include <cstring>
 #include <cctype>
 #include <iostream>
+#include <limits>
 
 class Word 
 {
