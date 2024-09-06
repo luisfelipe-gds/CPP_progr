@@ -13,7 +13,11 @@ jobs:
         run: sudo apt-get install -y g++
 
       - name: Build project
-        run: g++ -o cString_word_manager main.cpp Word.cpp WordList.cpp WordCat.cpp WordCatVec.cpp
+        run: |
+          cd CPP_progr/Advanced/cString_word_manager
+          g++ -o cString_word_manager main.cpp Word.cpp WordList.cpp WordCat.cpp WordCatVec.cpp
 
       - name: Run executable
-        run: ./cString_word_manager
+        run: |
+          cd CPP_progr/Advanced/cString_word_manager
+          ./cString_word_manager
