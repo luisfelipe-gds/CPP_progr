@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug C++ with MSVC",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}\\function_objects_lambdas.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": true,
+            "preLaunchTask": "Build C++ with MSVC"
+        }
+    ]
+}
