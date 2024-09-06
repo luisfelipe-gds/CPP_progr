@@ -9,8 +9,19 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
+      - name: List directory
+        run: |
+          echo "Listing root directory:"
+          ls -la
+          echo "Listing CPP_progr directory:"
+          ls -la CPP_progr
+          echo "Listing Advanced directory:"
+          ls -la CPP_progr/Advanced
+          echo "Listing cString_word_manager directory:"
+          ls -la CPP_progr/Advanced/cString_word_manager
+
       - name: Install GCC
-        run: sudo apt-get install -y g++
+        run: sudo apt-get update && sudo apt-get install -y g++
 
       - name: Build project
         run: |
