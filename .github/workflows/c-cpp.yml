@@ -16,7 +16,7 @@ jobs:
         run: |
           mkdir -p build
           cd Advanced/cString_word_manager
-          g++ -o build/cString_word_manager main.cpp Word.cpp WordList.cpp WordCat.cpp WordCatVec.cpp
+          g++ -std=c++17 -o build/cString_word_manager main.cpp Word.cpp WordList.cpp WordCat.cpp WordCatVec.cpp
 
       - name: Run executable
         run: |
