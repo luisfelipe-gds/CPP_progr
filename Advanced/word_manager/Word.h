@@ -1,22 +1,3 @@
-/* ***************************************************************************
- * COMP 5421 - Summer 2024 - Assignment 2 - Professor Sadegh Ghaderpanah
- * Student Name: Luis Felipe Garcia de Souza
- * Student ID: 40266040
- * Due Date: June 14th, 2024
- * ***************************************************************************
- *
- * Please check the ReadMe file for the detailed description of all classes
- * and how they interact. Check Word.cpp for the implementation of the methods.
- *
- * ***************************************************************************
- * Class Description: Word class is a class that represents a word. It has
- * a string instance variable that holds the word. It has methods to manipulate
- * the word, such as concatenating, comparing, reading, writing, and setting.
- * It also has overloaded operators to compare, read, and write the word.
- * 
- * ***************************************************************************
- */
-
 #ifndef WORD_H_
 #define WORD_H_
 #include <iostream>
